@@ -15,3 +15,6 @@ of the day will turn gray once passed, red when present, and green when upcoming
 Data is saved to localStorage and should be present upon refresh. 
 
 ![Planner](./images/screenshot.jpg)
+
+
+![Time chaging colors](./images/screenshot2.jpg)
