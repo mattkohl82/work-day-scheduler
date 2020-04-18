@@ -15,8 +15,9 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background: linear-gradient(49deg, rgba(255,255,255,1) 6%, rgba(0,14,255,1) 55%, rgba(0,0,0,1) 100%);
+  color: white;
+  text-shadow: -1px -1px 0 rgb(17, 0, 255), 1px -1px 0 rgb(38, 0, 255), -1px 1px 0 rgb(38, 0, 255), 1px 1px 0 rgb(28, 3, 255);
   border-radius: 0;
   border-bottom: 10px solid black;
 }
@@ -70,6 +71,8 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-h2 {
-  color: red;
+h2,
+h1 {
+  color: rgb(118, 118, 119);
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
 }

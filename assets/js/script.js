@@ -25,7 +25,7 @@ function infoColorChange() {
         } else{
             $(this).removeClass("past");
             $(this).removeClass("present");
-            $(this).addClass("futrue")
+            $(this).addClass("future")
         }
     });
 }
