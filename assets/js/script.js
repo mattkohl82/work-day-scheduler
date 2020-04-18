@@ -13,9 +13,22 @@ updateTime();
 
 
 
+function infoColorChange() {
+    var currentHour = moment().hour();
+    $(".row").each(function() {
+        var hourBlock = parseInt($(this).attr("id").split("-")[1]);
+        if(hourBlock < currentHour) {
+            $(this).addClass("past");
+        } else if(hourBlock === currentHour) {
+            $(this).removeClass("past");
+            $(this).addClass("present");
+        } else{
+            $(this).removeClass("past");
+            $(this).removeClass("present");
+            $(this).addClass("futrue")
+        }
+    });
+}
 
-
-//var currentTime = moment();
-
-//timeWhereYouAre.textContent = currentTime.format("MMM DD, YYYY - hh:mm:ss A");
-
+infoColorChange();
+let hour = setInterval(infoColorChange, 10000)
