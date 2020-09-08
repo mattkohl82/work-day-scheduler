@@ -8,8 +8,8 @@
 </p>   
 
 <p align='center'>
-    <img src="./images/screenshot.jpg" alt="Planner"/>
-    <img src="./images/screenshot2.jpg" alt="colorchange"/>
+    <img src="./images/main.jpg" alt="Planner"/>
+    <img src="./images/colorchange.jpg" alt="colorchange"/>
 </p>  
 
 
